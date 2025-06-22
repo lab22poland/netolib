@@ -1,0 +1,30 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# NETo Core Library Context
+
+⚠️ **CONTEXT**: You are now working in the `netolib/` submodule - the core networking library.
+
+## Repository Context
+- **Independent Repository**: This is a separate git repository from the main project
+- **Remote**: https://github.com/lab22poland/netolib.git
+- **Purpose**: Core networking utilities and libraries for the NETo suite
+
+## Development Focus
+- **Library Development**: Reusable networking components
+- **Platform Independence**: Code should work across iOS, macOS, and potentially other platforms
+- **API Design**: Clean, well-documented public interfaces
+
+## Library Characteristics
+- **Modular Design**: Well-defined modules for different networking functions
+- **Documentation**: Comprehensive API documentation required
+- **Testing**: Extensive unit test coverage for all public APIs
+- **Dependencies**: Minimal external dependencies preferred
+
+## Git Operations
+- Git commands in this directory operate on the netolib submodule repository
+- This repository uses `main` branch (never `master`)
+- Independent development and versioning from parent project
+- Library versioning should follow semantic versioning (SemVer)
